@@ -82,11 +82,11 @@
 		min-width: 140px;
 		max-width: 180px;
 		padding: 1.25rem 1rem;
-		background: linear-gradient(135deg, var(--color-accent) 0%, #1e40af 100%);
+		background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark, #047857) 100%);
 		border-radius: 12px;
 		text-align: center;
 		color: white;
-		box-shadow: 0 4px 20px rgba(37, 99, 235, 0.3);
+		box-shadow: 0 4px 20px rgba(5, 150, 105, 0.3);
 		transform: translateY(20px);
 		opacity: 0;
 		transition:
@@ -102,7 +102,7 @@
 	}
 
 	.stat-card:hover {
-		box-shadow: 0 8px 30px rgba(37, 99, 235, 0.4);
+		box-shadow: 0 8px 30px rgba(5, 150, 105, 0.4);
 		transform: translateY(-2px);
 	}
 
@@ -128,6 +128,7 @@
 		display: inline-block;
 		font-size: 0.7rem;
 		color: rgba(255, 255, 255, 0.8);
+		text-decoration: none;
 		margin-top: 0.5rem;
 		padding: 0.2rem 0.5rem;
 		background: rgba(255, 255, 255, 0.15);
@@ -138,6 +139,7 @@
 	.stat-source:hover {
 		background: rgba(255, 255, 255, 0.25);
 		color: white;
+		text-decoration: none;
 	}
 
 	@media (max-width: 600px) {

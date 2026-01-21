@@ -37,11 +37,18 @@
 
 	@media print {
 		.cv-section {
-			margin-bottom: 1.5rem;
+			margin-bottom: 1rem;
+			page-break-inside: auto;
 		}
 
 		h2 {
 			font-size: 1.1rem;
+			margin-bottom: 0.5rem;
+			page-break-after: avoid;
+		}
+
+		.section-content {
+			page-break-before: avoid;
 		}
 	}
 </style>

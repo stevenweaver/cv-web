@@ -79,12 +79,11 @@
 	}
 
 	h3 a {
-		color: var(--color-accent, #2563eb);
-		text-decoration: none;
+		color: var(--color-link, #1d4ed8);
 	}
 
 	h3 a:hover {
-		text-decoration: underline;
+		color: var(--color-link-hover, #1e40af);
 	}
 
 	.role {
@@ -133,7 +132,8 @@
 	}
 
 	.github-link:hover {
-		color: var(--color-accent, #2563eb);
+		color: var(--color-link, #1d4ed8);
+		text-decoration: underline;
 	}
 
 	.github-icon {

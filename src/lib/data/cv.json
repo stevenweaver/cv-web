@@ -1,7 +1,7 @@
 {
 	"personal": {
 		"name": "Steven Weaver",
-		"title": "Senior Programming Analyst & Bioinformatics PhD",
+		"title": "Computational Biologist & Bioinformatics Researcher",
 		"photo": "/images/headshot.jpg",
 		"bio": "Bioinformatics researcher and software developer specializing in computational biology, phylogenetics, and high-performance computing. Focused on developing tools and methods for molecular evolution analysis and comparative genomics.",
 		"researchInterests": [
@@ -15,21 +15,21 @@
 			"email": "sweaver@temple.edu",
 			"website": "https://stevenweaver.org",
 			"github": "https://github.com/stevenweaver",
-			"googleScholar": "https://scholar.google.com/citations?user=YOUR_ID",
+			"googleScholar": "https://scholar.google.com/citations?user=A2ImcaUAAAAJ",
 			"orcid": "https://orcid.org/0000-0002-6931-7191"
 		}
 	},
 	"positions": [
 		{
 			"title": "Senior Programming Analyst",
-			"organization": "Temple University",
+			"organization": "Institute for Genomics and Evolutionary Medicine, Temple University",
 			"location": "Philadelphia, PA",
 			"startDate": "2016",
-			"description": "Lead developer for bioinformatics web applications and computational pipelines for the Institute for Genomics and Evolutionary Medicine.",
+			"description": "Building systems and applications that accelerate bioinformatics research while having direct practical application in public health.",
 			"highlights": [
-				"Develop and maintain HyPhy software ecosystem",
-				"Build web-based analysis platforms for molecular evolution research",
-				"Collaborate with researchers on computational biology projects"
+				"Develop and maintain HyPhy software ecosystem and Datamonkey web platform using Node.js, Svelte, C++, and Python",
+				"Build user-friendly web applications for RNA-Seq pipelines, phylogenetic analysis, and molecular evolution research",
+				"Configure and maintain high-performance computing environments at San Diego Supercomputing Center and Temple University"
 			]
 		},
 		{
@@ -74,59 +74,155 @@
 			"location": "San Diego, CA"
 		}
 	],
-	"awards": [
-		{
-			"title": "Graduate Research Award",
-			"organization": "Temple University",
-			"date": "2020",
-			"description": "Recognition for outstanding graduate research in bioinformatics"
-		}
-	],
+	"awards": [],
 	"professionalActivities": [
 		{
 			"role": "Member",
 			"organization": "HPC Subcommittee",
-			"startDate": "2018",
-			"description": "Contributing to high-performance computing infrastructure decisions and best practices"
+			"startDate": "2016",
+			"description": "Contributing to high-performance computing infrastructure decisions and best practices",
+			"endDate": "2018"
 		},
 		{
-			"role": "Member",
+			"role": "Steering Committee Member",
 			"organization": "MIDAS (Models of Infectious Disease Agent Study)",
-			"startDate": "2020",
-			"description": "Collaboration on computational methods for infectious disease modeling"
+			"startDate": "2023",
+			"description": "Steering committee for computational methods in infectious disease modeling",
+			"endDate": "2025"
+		},
+		{
+			"role": "Technical Consultant",
+			"organization": "CDC Division of HIV Prevention",
+			"startDate": "2018",
+			"description": "Consulting on HIV molecular epidemiology methods and cluster detection software"
 		}
 	],
 	"grants": [
 		{
 			"title": "Development of HyPhy Web Services",
 			"agency": "NIH",
-			"role": "Co-Investigator",
+			"role": "Lead Developer",
 			"status": "active",
 			"description": "Supporting infrastructure for molecular evolution analysis tools"
+		},
+		{
+			"title": "Secure HIV-TRACE: Bioinformatics Application for Molecular Cluster Detection",
+			"agency": "CDC (Division of HIV Prevention)",
+			"role": "Lead Developer",
+			"status": "active",
+			"description": "Development, modernization, and maintenance of Secure HIV-TRACE for molecular epidemiology and HIV cluster detection at state/local health departments"
 		}
 	],
 	"publicationStats": {
-		"totalPublications": 51,
-		"totalCitations": 12500,
-		"hIndex": 25,
-		"weightedRCR": 150,
-		"googleScholarUrl": "https://scholar.google.com/citations?user=YOUR_ID",
+		"totalPublications": 37,
+		"totalCitations": 10654,
+		"hIndex": 23,
+		"weightedRCR": 369.38,
+		"googleScholarUrl": "https://scholar.google.com/citations?user=A2ImcaUAAAAJ",
 		"nihIciteUrl": "https://icite.od.nih.gov/analysis"
 	},
 	"publications": [
 		{
 			"title": "Minus the Error: Testing for Positive Selection in the Presence of Residual Alignment Errors",
-			"authors": [],
+			"authors": [
+				"Avery Selberg",
+				"Nathan L Clark",
+				"Timothy B Sackton",
+				"Spencer V Muse",
+				"Alexander G Lucaci",
+				"Steven Weaver",
+				"Anton Nekrutenko",
+				"Maria Chikina",
+				"Sergei L Kosakovsky Pond"
+			],
 			"year": "2025",
-			"doi": "10.7554/eLife.106921.1",
+			"doi": "10.1101/2024.11.13.620707",
+			"pmid": "39605407",
 			"type": "preprint"
 		},
 		{
-			"title": "Minus the Error: Testing for Positive Selection in the Presence of Residual Alignment Errors",
-			"authors": [],
+			"title": "Viral genome sequence datasets display pervasive evidence of strand-specific substitution biases that are best described using non-reversible nucleotide substitution models",
+			"authors": [
+				"Rita Sianga-Mete",
+				"Penelope Hartnady",
+				"Wimbai Caroline Mandikumba",
+				"Kayleigh Rutherford",
+				"Christopher Brian Currin",
+				"Florence Phelanyane",
+				"Sabina Stefan",
+				"Steven Weaver",
+				"Sergei L Kosakovsky Pond",
+				"Darren P Martin"
+			],
 			"year": "2025",
-			"doi": "10.7554/eLife.106921",
-			"type": "preprint"
+			"journal": "eLife",
+			"volume": "12",
+			"pages": "RP87361",
+			"doi": "10.7554/eLife.87361",
+			"type": "journal"
+		},
+		{
+			"title": "HIV molecular network in Mexico City (2021-2022): Understanding transmission dynamics through the role of newly diagnosed cases",
+			"authors": [
+				"Samuel E Schulz-Medina",
+				"Daniela Tapia-Trejo",
+				"Margarita Matías-Florentino",
+				"Dulce M López-Sánchez",
+				"Claudia García-Morales",
+				"Jessica Monreal-Flores",
+				"Ángeles Beristain-Barreda",
+				"Miroslava Cárdenas-Sandoval",
+				"Manuel Becerril-Rodríguez",
+				"Silvia Del Arenal-Sánchez",
+				"Verónica Quiroz-Morales",
+				"Steven Weaver",
+				"Joel O Wertheim",
+				"Raúl Adrián Cruz-Flores",
+				"Gustavo Reyes-Terán",
+				"Andrea González-Rodríguez",
+				"Santiago Ávila-Ríos",
+				"Vanessa Dávila-Conn"
+			],
+			"year": "2025",
+			"journal": "HIV Medicine",
+			"volume": "26",
+			"issue": "7",
+			"pages": "1046-1059",
+			"doi": "10.1111/hiv.70029",
+			"pmid": "40338107",
+			"type": "journal"
+		},
+		{
+			"title": "Nationwide Implementation of HIV Molecular Cluster Detection by Centers for Disease Control and Prevention and State and Local Health Departments, United States",
+			"authors": [
+				"Anne Marie France",
+				"Camden J Hallmark",
+				"Nivedha Panneer",
+				"Rachael Billock",
+				"Olivia O Russell",
+				"Mary Plaster",
+				"Jessica Alberti",
+				"Fathima Nuthan",
+				"Neeraja Saduvala",
+				"David Philpott",
+				"M Cheryl Bañez Ocfemia",
+				"Scott Cope",
+				"Angela L Hernandez",
+				"Sergei L Kosakovsky Pond",
+				"Joel O Wertheim",
+				"Steven Weaver",
+				"Saja Khader",
+				"Kevin Johnson",
+				"Alexandra M Oster"
+			],
+			"year": "2025",
+			"journal": "Emerging Infectious Diseases",
+			"volume": "31",
+			"issue": "13",
+			"pages": "80-88",
+			"doi": "10.3201/eid3113.241143",
+			"pmid": "40359087",
+			"type": "journal"
 		},
 		{
 			"title": "AUTO-TUNE: SELECTING THE DISTANCE THRESHOLD FOR INFERRING HIV TRANSMISSION CLUSTERS",
@@ -143,24 +239,6 @@
 			"year": "2024",
 			"doi": "10.1101/2024.03.11.584522",
 			"pmid": "38559140",
-			"type": "preprint"
-		},
-		{
-			"title": "Minus the Error: Testing for Positive Selection in the Presence of Residual Alignment Errors",
-			"authors": [
-				"Avery Selberg",
-				"Nathan L Clark",
-				"Timothy B Sackton",
-				"Spencer V Muse",
-				"Alexander G Lucaci",
-				"Steven Weaver",
-				"Anton Nekrutenko",
-				"Maria Chikina",
-				"Sergei L Kosakovsky Pond"
-			],
-			"year": "2024",
-			"doi": "10.1101/2024.11.13.620707",
-			"pmid": "39605407",
 			"type": "preprint"
 		},
 		{
@@ -665,14 +743,6 @@
 			"type": "journal"
 		},
 		{
-			"title": "Escape of SARS-CoV-2 501Y.V2 from neutralization by convalescent plasma",
-			"authors": [],
-			"year": "2021",
-			"journal": "medRxiv",
-			"doi": "10.1101/2021.01.26.21250224",
-			"type": "journal"
-		},
-		{
 			"title": "Extra base hits: Widespread empirical support for instantaneous multiple-nucleotide changes",
 			"authors": [
 				"Alexander G Lucaci",
@@ -838,21 +908,6 @@
 			"type": "journal"
 		},
 		{
-			"title": "Predicting the mutational drivers of future SARS-CoV-2 variants of concern",
-			"authors": [],
-			"year": "2021",
-			"doi": "10.1101/2021.06.21.21259286",
-			"type": "journal"
-		},
-		{
-			"title": "Rapid epidemic expansion of the SARS-CoV-2 Omicron variant in southern Africa",
-			"authors": [],
-			"year": "2021",
-			"journal": "medRxiv",
-			"doi": "10.1101/2021.12.19.21268028",
-			"type": "journal"
-		},
-		{
 			"title": "The emergence and ongoing convergent evolution of the N501Y lineages coincides with a major global shift in the SARS-CoV-2 selective landscape",
 			"authors": [
 				"Darren P Martin",
@@ -920,44 +975,11 @@
 			"type": "journal"
 		},
 		{
-			"title": "An evolutionary portrait of the progenitor SARS‐CoV‐2 and its dominant offshoots in COVID‐19 pandemic",
-			"authors": [
-				"Sudhir Kumar",
-				"Qiqing Tao",
-				"Steven Weaver",
-				"Maxwell Sanderford",
-				"Marcos A Caraballo-Ortiz",
-				"Sudip Sharma",
-				"Sergei L K Pond",
-				"Sayaka Miura"
-			],
-			"year": "2020",
-			"journal": "bioRxiv",
-			"doi": "10.1101/2020.09.24.311845",
-			"pmid": "32995781",
-			"type": "journal"
-		},
-		{
-			"title": "Contrast-FEL – a test for differences in selective pressures at individual sites among clades and sets of branches",
-			"authors": [],
-			"year": "2020",
-			"doi": "10.1101/2020.05.13.091363",
-			"type": "preprint"
-		},
-		{
 			"title": "Emergence and rapid spread of a new severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) lineage with multiple spike mutations in South Africa",
 			"authors": [],
 			"year": "2020",
 			"journal": "medRxiv",
 			"doi": "10.1101/2020.12.21.20248640",
-			"type": "journal"
-		},
-		{
-			"title": "Extra base hits: widespread empirical support for instantaneous multiple-nucleotide changes",
-			"authors": [],
-			"year": "2020",
-			"journal": "bioRxiv",
-			"doi": "10.1101/2020.05.13.091652",
 			"type": "journal"
 		},
 		{
@@ -1055,13 +1077,6 @@
 			"type": "chapter"
 		},
 		{
-			"title": "Datamonkey 2.0: a modern web application for characterizing selective and other evolutionary processes",
-			"authors": [],
-			"year": "2018",
-			"journal": "Molecular biology and evolution",
-			"type": "journal"
-		},
-		{
 			"title": "Datamonkey 2.0: A modern web application for characterizing selective and other evolutionary processes",
 			"authors": [
 				"Steven Weaver",
@@ -1103,13 +1118,6 @@
 			"type": "journal"
 		},
 		{
-			"title": "HIV-TRACE (TRAnsmission Cluster Engine): a Tool for Large Scale Molecular Epidemiology of HIV-1 and Other Rapidly Evolving Pathogens",
-			"authors": [],
-			"year": "2018",
-			"journal": "Molecular biology and evolution",
-			"type": "journal"
-		},
-		{
 			"title": "HIV-TRACE (TRAnsmission Cluster Engine): A tool for large scale molecular epidemiology of HIV-1 and other rapidly evolving pathogens",
 			"authors": [
 				"Sergei L Kosakovsky Pond",
@@ -1140,28 +1148,6 @@
 			"pages": "276",
 			"doi": "10.1186/s12859-018-2283-2",
 			"pmid": "30045713",
-			"type": "journal"
-		},
-		{
-			"title": "Full-Length Envelope Analyzer (FLEA): A tool for longitudinal analysis of viral amplicons",
-			"authors": [],
-			"year": "2017",
-			"journal": "bioRxiv",
-			"type": "journal"
-		},
-		{
-			"title": "Full-Length Envelope Analyzer (FLEA): A tool for longitudinal analysis of viral amplicons",
-			"authors": [],
-			"year": "2017",
-			"journal": "bioRxiv",
-			"doi": "10.1101/230474",
-			"type": "journal"
-		},
-		{
-			"title": "Rapid sequencing of complete env genes from primary HIV-1 samples",
-			"authors": [],
-			"year": "2016",
-			"journal": "Virus Evolution",
 			"type": "journal"
 		},
 		{
@@ -1196,13 +1182,6 @@
 		},
 		{
 			"title": "Gene-wide identification of episodic selection",
-			"authors": [],
-			"year": "2015",
-			"journal": "Molecular biology and evolution",
-			"type": "journal"
-		},
-		{
-			"title": "Gene-wide identification of episodic selection",
 			"authors": [
 				"Ben Murrell",
 				"Steven Weaver",
@@ -1227,13 +1206,6 @@
 			"type": "journal"
 		},
 		{
-			"title": "Less is more: an adaptive branch-site random effects model for efficient detection of episodic diversifying selection",
-			"authors": [],
-			"year": "2015",
-			"journal": "Molecular biology and evolution",
-			"type": "journal"
-		},
-		{
 			"title": "Less is more: An adaptive branch-site random effects model for efficient detection of episodic diversifying selection",
 			"authors": [
 				"Martin D Smith",
@@ -1250,13 +1222,6 @@
 			"pages": "1342-53",
 			"doi": "10.1093/molbev/msv022",
 			"pmid": "25697341",
-			"type": "journal"
-		},
-		{
-			"title": "IDEPI: Rapid prediction of HIV-1 antibody epitopes and other phenotypic features from sequence data using a flexible machine learning platform",
-			"authors": [],
-			"year": "2014",
-			"journal": "PLoS computational biology",
 			"type": "journal"
 		},
 		{
@@ -1308,7 +1273,7 @@
 		},
 		{
 			"name": "HIV-TRACE",
-			"description": "Tool for molecular epidemiology of HIV-1 and other rapidly evolving pathogens",
+			"description": "Molecular epidemiology tool for HIV-1 cluster detection, adopted by CDC for national HIV surveillance. Powers Secure HIV-TRACE used by 59 U.S. jurisdictions.",
 			"github": "https://github.com/veg/hivtrace",
 			"technologies": [
 				"Python",
@@ -1319,49 +1284,23 @@
 	],
 	"courses": [
 		{
-			"title": "Introduction to Bioinformatics",
+			"title": "Genomics in Medicine",
 			"institution": "Temple University",
 			"role": "Teaching Assistant",
 			"semesters": [
-				"Fall 2017",
-				"Spring 2018"
+				"2019"
 			]
 		}
 	],
 	"workshops": [
 		{
-			"title": "Molecular Evolution Workshop",
+			"title": "MEGA Workshop",
 			"role": "Instructor",
-			"location": "Marine Biological Laboratory, Woods Hole, MA",
-			"date": "2019",
-			"description": "Teaching computational methods for molecular evolution analysis"
+			"location": "Society for Molecular Biology and Evolution (SMBE)",
+			"date": "2018",
+			"description": "Teaching molecular evolutionary genetics analysis using MEGA software"
 		}
 	],
-	"mentoring": [
-		{
-			"name": "Graduate Student",
-			"degree": "PhD",
-			"institution": "Temple University",
-			"period": "2020-present",
-			"coAdvisors": [
-				"Sergei L. Kosakovsky Pond"
-			]
-		}
-	],
-	"skills": [
-		"Python",
-		"JavaScript",
-		"TypeScript",
-		"C",
-		"C++",
-		"Haskell",
-		"R",
-		"SQL",
-		"Node.js",
-		"Svelte",
-		"React",
-		"HPC/Cluster Computing",
-		"Bioinformatics",
-		"Phylogenetics"
-	]
+	"mentoring": [],
+	"skills": []
 }

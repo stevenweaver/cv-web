@@ -2,8 +2,12 @@
 	--color-heading: #1a1a1a;
 	--color-text: #374151;
 	--color-text-muted: #6b7280;
-	--color-accent: #2563eb;
-	--color-accent-light: #3b82f6;
+	--color-accent: #059669;
+	--color-accent-light: #10b981;
+	--color-accent-dark: #047857;
+	--color-link: #1d4ed8;
+	--color-link-underline: #93c5fd;
+	--color-link-hover: #1e40af;
 	--color-border: #e5e7eb;
 	--color-border-light: #f3f4f6;
 	--color-bg: #ffffff;
@@ -36,13 +40,16 @@ body {
 }
 
 a {
-	color: var(--color-accent);
-	text-decoration: none;
-	transition: color 0.2s ease;
+	color: var(--color-link);
+	text-decoration: underline;
+	text-decoration-color: var(--color-link-underline);
+	text-underline-offset: 2px;
+	transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 a:hover {
-	color: var(--color-accent-light);
+	color: var(--color-link-hover);
+	text-decoration-color: var(--color-link-hover);
 }
 
 img {
@@ -53,21 +60,40 @@ img {
 /* Print styles */
 @media print {
 	:root {
-		--color-accent: #1e40af;
+		--color-accent: #047857;
+		--color-heading: #000000;
+		--color-text: #1a1a1a;
+		--color-text-muted: #4b5563;
 	}
 
 	html {
-		font-size: 11pt;
+		font-size: 10pt;
 	}
 
 	body {
 		background: white;
 		color: black;
+		line-height: 1.4;
 	}
 
 	a {
 		color: var(--color-text);
 		text-decoration: none;
+	}
+
+	/* Tighter spacing for print */
+	h2 {
+		margin-top: 1rem;
+		margin-bottom: 0.5rem;
+		font-size: 1.1rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+	}
+
+	p {
+		margin: 0.25rem 0;
 	}
 
 	/* Avoid page breaks inside elements */
@@ -81,8 +107,9 @@ img {
 		page-break-inside: avoid;
 	}
 
+	/* Allow page breaks in long sections like publications */
 	section {
-		page-break-inside: avoid;
+		page-break-inside: auto;
 	}
 
 	/* Keep headings with their content */
@@ -91,13 +118,34 @@ img {
 		page-break-before: avoid;
 	}
 
+	/* Avoid orphans and widows */
+	p, li {
+		orphans: 3;
+		widows: 3;
+	}
+
+	/* Don't break inside individual items */
+	li, article, .publication-item {
+		page-break-inside: avoid;
+	}
+
 	/* Print-friendly link display */
 	a[href^='http']::after {
 		content: none;
 	}
+
+	/* Hide decorative elements */
+	.contact-links {
+		background: none !important;
+		padding: 0.5rem 0 !important;
+	}
 }
 
 @page {
-	margin: 0.75in;
+	margin: 0.6in 0.75in;
 	size: letter;
+}
+
+@page :first {
+	margin-top: 0.5in;
 }

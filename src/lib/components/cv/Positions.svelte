@@ -10,7 +10,7 @@
 	let { positions }: Props = $props();
 </script>
 
-<Section title="Experience" id="experience">
+<Section title="Positions" id="positions">
 	<div class="positions">
 		{#each positions as position}
 			<div class="position">

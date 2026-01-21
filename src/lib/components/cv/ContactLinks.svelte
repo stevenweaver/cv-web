@@ -67,7 +67,8 @@
 	}
 
 	.contact-link:hover {
-		color: var(--color-accent, #2563eb);
+		color: var(--color-link, #1d4ed8);
+		text-decoration: underline;
 	}
 
 	.icon {

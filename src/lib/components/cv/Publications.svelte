@@ -129,17 +129,18 @@
 
 	.link {
 		font-size: 0.85rem;
-		color: var(--color-accent, #2563eb);
+		color: var(--color-link, #1d4ed8);
 		text-decoration: none;
 		padding: 0.125rem 0.5rem;
-		border: 1px solid var(--color-accent, #2563eb);
+		border: 1px solid var(--color-link, #1d4ed8);
 		border-radius: 0.25rem;
 		transition: all 0.2s;
 	}
 
 	.link:hover {
-		background: var(--color-accent, #2563eb);
+		background: var(--color-link, #1d4ed8);
 		color: white;
+		text-decoration: none;
 	}
 
 	.citations {

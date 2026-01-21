@@ -11,17 +11,33 @@
 		Software,
 		Courses,
 		Workshops,
-		Mentoring
+		Mentoring,
+		SideNav
 	} from '$lib/components/cv';
 
 	let { data } = $props();
 	const cv = $derived(data.cv);
+
+	const navItems = $derived(
+		[
+			cv.positions?.length && { id: 'positions', label: 'Positions' },
+			cv.education?.length && { id: 'education', label: 'Education' },
+			cv.software?.length && { id: 'software', label: 'Software' },
+			cv.grants?.length && { id: 'grants', label: 'Grants' },
+			cv.courses?.length && { id: 'courses', label: 'Teaching' },
+			cv.workshops?.length && { id: 'workshops', label: 'Workshops' },
+			cv.professionalActivities?.length && { id: 'professional-activities', label: 'Activities' },
+			cv.publications?.length && { id: 'publications', label: 'Publications' }
+		].filter(Boolean) as { id: string; label: string }[]
+	);
 </script>
 
 <svelte:head>
 	<title>{cv.personal.name} - CV</title>
 	<meta name="description" content="Curriculum Vitae of {cv.personal.name}" />
 </svelte:head>
+
+<SideNav items={navItems} />
 
 <main class="cv">
 	<Header personal={cv.personal} />
@@ -36,20 +52,12 @@
 		<Education education={cv.education} />
 	{/if}
 
-	{#if cv.publications && cv.publications.length > 0}
-		<Publications publications={cv.publications} highlightAuthor="Weaver" stats={cv.publicationStats} />
-	{/if}
-
 	{#if cv.software && cv.software.length > 0}
 		<Software software={cv.software} />
 	{/if}
 
 	{#if cv.grants && cv.grants.length > 0}
 		<Grants grants={cv.grants} />
-	{/if}
-
-	{#if cv.awards && cv.awards.length > 0}
-		<Awards awards={cv.awards} />
 	{/if}
 
 	{#if cv.courses && cv.courses.length > 0}
@@ -60,23 +68,12 @@
 		<Workshops workshops={cv.workshops} />
 	{/if}
 
-	{#if cv.mentoring && cv.mentoring.length > 0}
-		<Mentoring mentees={cv.mentoring} />
-	{/if}
-
 	{#if cv.professionalActivities && cv.professionalActivities.length > 0}
 		<ProfessionalActivities activities={cv.professionalActivities} />
 	{/if}
 
-	{#if cv.skills && cv.skills.length > 0}
-		<section class="skills-section">
-			<h2>Skills</h2>
-			<div class="skills">
-				{#each cv.skills as skill}
-					<span class="skill">{skill}</span>
-				{/each}
-			</div>
-		</section>
+	{#if cv.publications && cv.publications.length > 0}
+		<Publications publications={cv.publications} highlightAuthor="Weaver" stats={cv.publicationStats} />
 	{/if}
 </main>
 
@@ -85,36 +82,6 @@
 		max-width: 850px;
 		margin: 0 auto;
 		padding: 2rem;
-	}
-
-	.skills-section {
-		margin-bottom: 2rem;
-	}
-
-	.skills-section h2 {
-		font-size: 1.25rem;
-		font-weight: 600;
-		color: var(--color-heading, #1a1a1a);
-		border-bottom: 2px solid var(--color-accent, #2563eb);
-		padding-bottom: 0.5rem;
-		margin-bottom: 1rem;
-		text-transform: uppercase;
-		letter-spacing: 0.05em;
-	}
-
-	.skills {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-	}
-
-	.skill {
-		font-size: 0.9rem;
-		color: var(--color-text, #374151);
-		background: var(--color-bg-muted, #f9fafb);
-		padding: 0.25rem 0.75rem;
-		border-radius: 0.25rem;
-		border: 1px solid var(--color-border, #e5e7eb);
 	}
 
 	@media (max-width: 600px) {
@@ -127,16 +94,6 @@
 		.cv {
 			max-width: none;
 			padding: 0;
-		}
-
-		.skills-section h2 {
-			font-size: 1.1rem;
-		}
-
-		.skill {
-			font-size: 0.85rem;
-			border-color: var(--color-text-muted);
-			background: none;
 		}
 	}
 </style>

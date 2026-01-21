@@ -12,3 +12,4 @@ export { default as Software } from './Software.svelte';
 export { default as Courses } from './Courses.svelte';
 export { default as Workshops } from './Workshops.svelte';
 export { default as Mentoring } from './Mentoring.svelte';
+export { default as SideNav } from './SideNav.svelte';
