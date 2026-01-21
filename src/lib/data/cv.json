@@ -104,8 +104,7 @@
 			"role": "Lead Developer",
 			"status": "active",
 			"startDate": "2024",
-			"endDate": "2029",
-			"amount": "$750,000"
+			"endDate": "2029"
 		},
 		{
 			"title": "Hypothesis Testing using Phylogenies for the 21st century",
@@ -113,8 +112,7 @@
 			"role": "Lead Developer",
 			"status": "active",
 			"startDate": "2024",
-			"endDate": "2028",
-			"amount": "$300,000"
+			"endDate": "2028"
 		},
 		{
 			"title": "Secure HIV-TRACE: Bioinformatics Application for Molecular Cluster Detection",
