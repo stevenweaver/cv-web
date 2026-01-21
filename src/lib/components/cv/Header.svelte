@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { PersonalInfo } from '$lib/types/cv';
+	import { base } from '$app/paths';
 
 	interface Props {
 		personal: PersonalInfo;
@@ -12,7 +13,7 @@
 	<div class="header-content">
 		{#if personal.photo}
 			<div class="photo-container">
-				<img src={personal.photo} alt={personal.name} class="headshot" />
+				<img src="{base}{personal.photo}" alt={personal.name} class="headshot" />
 			</div>
 		{/if}
 		<div class="info">
