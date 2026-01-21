@@ -1,0 +1,14 @@
+export { default as Header } from './Header.svelte';
+export { default as ContactLinks } from './ContactLinks.svelte';
+export { default as Section } from './Section.svelte';
+export { default as Positions } from './Positions.svelte';
+export { default as Education } from './Education.svelte';
+export { default as Awards } from './Awards.svelte';
+export { default as ProfessionalActivities } from './ProfessionalActivities.svelte';
+export { default as Grants } from './Grants.svelte';
+export { default as Publications } from './Publications.svelte';
+export { default as PublicationStats } from './PublicationStats.svelte';
+export { default as Software } from './Software.svelte';
+export { default as Courses } from './Courses.svelte';
+export { default as Workshops } from './Workshops.svelte';
+export { default as Mentoring } from './Mentoring.svelte';
