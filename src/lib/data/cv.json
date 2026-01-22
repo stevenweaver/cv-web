@@ -71,10 +71,33 @@
 			"degree": "BS",
 			"field": "Computer Engineering",
 			"institution": "San Diego State University",
-			"location": "San Diego, CA"
+			"location": "San Diego, CA",
+			"endDate": "2010"
 		}
 	],
-	"awards": [],
+	"awards": [
+		{
+			"title": "Travel Award",
+			"organization": "Alan Turing Institute",
+			"year": "2018"
+		}
+	],
+	"talks": [
+		{
+			"title": "AUTO-TUNE: Finding an Optimal Distance Threshold for Inferring HIV Transmission Clusters",
+			"event": "Dynamics and Evolution",
+			"location": "Heidelberg, Germany",
+			"year": "2023",
+			"type": "talk"
+		},
+		{
+			"title": "A scalable and secure web application for near real time molecular surveillance of HIV, and its applications to the US HIV epidemic",
+			"event": "MIDAS Network Meeting",
+			"location": "Atlanta, GA",
+			"year": "2017",
+			"type": "talk"
+		}
+	],
 	"professionalActivities": [
 		{
 			"role": "Member",
@@ -1295,7 +1318,7 @@
 		{
 			"title": "Genomics in Medicine",
 			"institution": "Temple University",
-			"role": "Teaching Assistant",
+			"role": "Guest Lecturer",
 			"semesters": [
 				"2019"
 			]
@@ -1305,7 +1328,7 @@
 		{
 			"title": "MEGA Workshop",
 			"role": "Instructor",
-			"location": "Society for Molecular Biology and Evolution (SMBE)",
+			"location": "Society for Molecular Biology and Evolution (SMBE), Yokohama, Japan",
 			"date": "2018",
 			"description": "Teaching molecular evolutionary genetics analysis using MEGA software"
 		}

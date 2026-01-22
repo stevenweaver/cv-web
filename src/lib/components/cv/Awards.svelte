@@ -20,8 +20,8 @@
 							<span class="organization">{award.organization}</span>
 						{/if}
 					</div>
-					{#if award.date}
-						<span class="date">{award.date}</span>
+					{#if award.year}
+						<span class="date">{award.year}</span>
 					{/if}
 				</div>
 				{#if award.description}

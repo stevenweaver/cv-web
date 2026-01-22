@@ -43,8 +43,16 @@ export interface Education {
 export interface Award {
 	title: string;
 	organization?: string;
-	date?: string;
+	year?: string;
 	description?: string;
+}
+
+export interface Talk {
+	title: string;
+	event: string;
+	location: string;
+	year: string;
+	type?: 'talk' | 'poster' | 'keynote' | 'invited';
 }
 
 export interface ProfessionalActivity {
@@ -132,6 +140,7 @@ export interface CVData {
 	positions?: Position[];
 	education?: Education[];
 	awards?: Award[];
+	talks?: Talk[];
 	professionalActivities?: ProfessionalActivity[];
 	grants?: Grant[];
 	publications?: Publication[];

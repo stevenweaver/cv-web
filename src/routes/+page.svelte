@@ -5,6 +5,7 @@
 		Positions,
 		Education,
 		Awards,
+		Talks,
 		ProfessionalActivities,
 		Grants,
 		Publications,
@@ -22,6 +23,8 @@
 		[
 			cv.positions?.length && { id: 'positions', label: 'Positions' },
 			cv.education?.length && { id: 'education', label: 'Education' },
+			cv.awards?.length && { id: 'awards', label: 'Awards' },
+			cv.talks?.length && { id: 'talks', label: 'Talks' },
 			cv.software?.length && { id: 'software', label: 'Software' },
 			cv.grants?.length && { id: 'grants', label: 'Grants' },
 			cv.courses?.length && { id: 'courses', label: 'Teaching' },
@@ -50,6 +53,14 @@
 
 	{#if cv.education && cv.education.length > 0}
 		<Education education={cv.education} />
+	{/if}
+
+	{#if cv.awards && cv.awards.length > 0}
+		<Awards awards={cv.awards} />
+	{/if}
+
+	{#if cv.talks && cv.talks.length > 0}
+		<Talks talks={cv.talks} />
 	{/if}
 
 	{#if cv.software && cv.software.length > 0}

@@ -4,6 +4,7 @@ export { default as Section } from './Section.svelte';
 export { default as Positions } from './Positions.svelte';
 export { default as Education } from './Education.svelte';
 export { default as Awards } from './Awards.svelte';
+export { default as Talks } from './Talks.svelte';
 export { default as ProfessionalActivities } from './ProfessionalActivities.svelte';
 export { default as Grants } from './Grants.svelte';
 export { default as Publications } from './Publications.svelte';
