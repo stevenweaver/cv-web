@@ -99,6 +99,12 @@
 	],
 	"professionalActivities": [
 		{
+			"role": "Technical Lead",
+			"organization": "Development Team",
+			"startDate": "2017",
+			"description": "Mentoring junior developers and coordinating software engineering efforts across multiple NIH-funded projects"
+		},
+		{
 			"role": "Member",
 			"organization": "HPC Subcommittee",
 			"startDate": "2016",
@@ -123,18 +129,20 @@
 		{
 			"title": "An integrated platform for multiomic analyses of pathogen and host data using scalable public infrastructure",
 			"agency": "NIH/NIAID",
-			"role": "Lead Developer",
+			"role": "Key Personnel",
 			"status": "active",
 			"startDate": "2024",
-			"endDate": "2029"
+			"endDate": "2029",
+			"amount": "$3.8M"
 		},
 		{
 			"title": "Hypothesis Testing using Phylogenies for the 21st century",
 			"agency": "NIH/NIGMS",
-			"role": "Lead Developer",
+			"role": "Key Personnel",
 			"status": "active",
 			"startDate": "2024",
-			"endDate": "2028"
+			"endDate": "2028",
+			"amount": "$1.5M"
 		},
 		{
 			"title": "Secure HIV-TRACE: Bioinformatics Application for Molecular Cluster Detection",

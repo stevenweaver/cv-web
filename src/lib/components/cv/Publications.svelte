@@ -11,6 +11,11 @@
 	}
 
 	let { publications, highlightAuthor = 'Weaver', stats }: Props = $props();
+
+	function isFirstAuthor(authors: string[], name: string): boolean {
+		if (!authors || authors.length === 0) return false;
+		return authors[0].toLowerCase().includes(name.toLowerCase());
+	}
 </script>
 
 <Section title="Publications" id="publications">
@@ -19,9 +24,15 @@
 	{/if}
 	<ol class="publications-list">
 		{#each publications as pub}
-			<li class="publication-item">
+			{@const firstAuthor = isFirstAuthor(pub.authors, highlightAuthor)}
+			<li class="publication-item" class:first-author={firstAuthor}>
 				<div class="publication-content">
-					<h3 class="title">{pub.title}</h3>
+					<h3 class="title">
+						{pub.title}
+						{#if firstAuthor}
+							<span class="first-author-badge">First Author</span>
+						{/if}
+					</h3>
 					<p class="authors">{@html formatAuthors(pub.authors, highlightAuthor)}</p>
 					<p class="venue">
 						{#if pub.journal}
@@ -93,6 +104,26 @@
 		font-weight: 600;
 		color: var(--color-heading, #1a1a1a);
 		line-height: 1.4;
+	}
+
+	.first-author-badge {
+		display: inline-block;
+		font-size: 0.7rem;
+		font-weight: 600;
+		color: white;
+		background: var(--color-accent, #059669);
+		padding: 0.1rem 0.4rem;
+		border-radius: 0.25rem;
+		margin-left: 0.5rem;
+		vertical-align: middle;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
+	}
+
+	.publication-item.first-author {
+		border-left: 3px solid var(--color-accent, #059669);
+		padding-left: 0.75rem;
+		margin-left: -0.75rem;
 	}
 
 	.authors {
