@@ -1333,6 +1333,18 @@
 	],
 	"workshops": [
 		{
+			"title": "NIAID BRCs AI Codeathon",
+			"role": "Participant",
+			"location": "Chicago, IL",
+			"date": "2025"
+		},
+		{
+			"title": "NIAID Resistance is Futile: A Codeathon to Combat Antimicrobial Resistance",
+			"role": "Participant",
+			"location": "Bethesda, MD",
+			"date": "2024"
+		},
+		{
 			"title": "MEGA Workshop",
 			"role": "Instructor",
 			"location": "Society for Molecular Biology and Evolution (SMBE), Yokohama, Japan",
