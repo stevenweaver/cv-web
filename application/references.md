@@ -7,22 +7,22 @@ The application requires 1-6 references (contact information only).
 ## Suggested References
 
 ### 1. Sergei L. Kosakovsky Pond, Ph.D.
-**Relationship**: Ph.D. Advisor, Research Collaborator
+**Relationship**: Ph.D. Advisor, 10+ year collaborator
 **Position**: Professor, Institute for Genomics and Evolutionary Medicine, Temple University
 **Email**: [TODO: Add email]
 **Phone**: [TODO: Add phone]
 
-*Can speak to: Research abilities, software development skills, collaborative work, mentoring potential*
+*Can speak to: Research abilities, software development skills (HyPhy, Datamonkey), collaborative work, mentoring potential, long-term reliability and performance*
 
 ---
 
 ### 2. Joel O. Wertheim, Ph.D.
-**Relationship**: Research Collaborator (HIV-TRACE)
+**Relationship**: 10+ year research collaborator (HIV-TRACE)
 **Position**: Associate Professor, Department of Medicine, UC San Diego
 **Email**: [TODO: Add email]
 **Phone**: [TODO: Add phone]
 
-*Can speak to: UCSD connection, HIV-TRACE development, collaborative research, computational biology expertise*
+*Can speak to: UCSD connection, HIV-TRACE/Secure HIV-TRACE development, collaborative research, computational biology expertise, long-term reliability*
 
 ---
 

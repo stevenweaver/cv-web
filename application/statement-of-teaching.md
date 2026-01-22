@@ -32,11 +32,15 @@ Given my background in molecular evolution and infectious disease research, I co
 
 ### Core Principle: "Lower the Barrier, Raise the Ceiling"
 
-My teaching philosophy stems from my experience developing software like Datamonkey, which makes sophisticated molecular evolution analyses accessible to researchers without programming expertise. I believe effective teaching must:
+My teaching philosophy stems from over 15 years of software engineering experience, including developing platforms like Datamonkey and Secure HIV-TRACE that make sophisticated analyses accessible to users without programming expertise. I believe effective teaching must:
 
 1. **Meet students where they are** - Just as good software design starts with user needs, good teaching starts with understanding student backgrounds and learning goals
 2. **Provide scaffolded complexity** - Introduce concepts through hands-on experience before abstract theory
 3. **Connect to real-world applications** - Students engage more deeply when they see how skills apply to current research
+
+### Communicating Across Disciplines
+
+I have a proven background working with individuals and groups from diverse backgrounds and skillsets. Whether training public health officials to use Secure HIV-TRACE, collaborating with evolutionary biologists on HyPhy methods, or working with security officials on compliance documentation, I have learned to communicate complex IT, software, and scientific concepts in relatable ways to ensure high engagement and understanding across disciplines and language barriers. This skill translates directly to the classroom, where students arrive with varied computational backgrounds.
 
 ### Philosophy in Practice: The MEGA Workshop Example
 

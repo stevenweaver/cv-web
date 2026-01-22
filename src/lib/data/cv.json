@@ -28,9 +28,16 @@
 		},
 		{
 			"title": "Bioinformatics Programmer",
-			"organization": "UC San Diego Medical Center",
+			"organization": "UC San Diego",
 			"location": "San Diego, CA",
-			"startDate": "2011"
+			"startDate": "2016"
+		},
+		{
+			"title": "Programming Analyst",
+			"organization": "UC San Diego",
+			"location": "San Diego, CA",
+			"startDate": "2011",
+			"endDate": "2015"
 		},
 		{
 			"title": "Software Engineer",
@@ -155,9 +162,9 @@
 	],
 	"publicationStats": {
 		"totalPublications": 37,
-		"totalCitations": 10654,
-		"hIndex": 23,
-		"weightedRCR": 369.38,
+		"totalCitations": 6700,
+		"hIndex": 22,
+		"weightedRCR": 634,
 		"googleScholarUrl": "https://scholar.google.com/citations?user=A2ImcaUAAAAJ",
 		"nihIciteUrl": "https://icite.od.nih.gov/analysis"
 	},
