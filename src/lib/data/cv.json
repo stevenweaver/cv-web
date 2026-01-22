@@ -24,28 +24,21 @@
 			"title": "Senior Programming Analyst",
 			"organization": "Institute for Genomics and Evolutionary Medicine, Temple University",
 			"location": "Philadelphia, PA",
-			"startDate": "2016",
-			"description": "Building systems and applications that accelerate bioinformatics research while having direct practical application in public health.",
-			"highlights": [
-				"Develop and maintain HyPhy software ecosystem and Datamonkey web platform using Node.js, Svelte, C++, and Python",
-				"Build user-friendly web applications for RNA-Seq pipelines, phylogenetic analysis, and molecular evolution research",
-				"Configure and maintain high-performance computing environments at San Diego Supercomputing Center and Temple University"
-			]
+			"startDate": "2016"
 		},
 		{
 			"title": "Bioinformatics Programmer",
 			"organization": "UC San Diego Medical Center",
 			"location": "San Diego, CA",
 			"startDate": "2011",
-			"description": "Developed bioinformatics tools and pipelines for genomic analysis and clinical research applications."
+			"endDate": "2016"
 		},
 		{
 			"title": "Software Engineer",
 			"organization": "Veoh Networks",
 			"location": "San Diego, CA",
 			"startDate": "2007",
-			"endDate": "2009",
-			"description": "Developed video streaming platform features and backend services."
+			"endDate": "2009"
 		}
 	],
 	"education": [
