@@ -84,6 +84,13 @@
 	],
 	"talks": [
 		{
+			"title": "COVFEFE with HIV-TRACE: Conditionally Orthogonal Vertices for Edge Filtering in Epidemics",
+			"event": "CIENI HIV Meeting",
+			"location": "Oaxaca, Mexico",
+			"year": "2023",
+			"type": "talk"
+		},
+		{
 			"title": "AUTO-TUNE: Finding an Optimal Distance Threshold for Inferring HIV Transmission Clusters",
 			"event": "Dynamics and Evolution",
 			"location": "Heidelberg, Germany",
