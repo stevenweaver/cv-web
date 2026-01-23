@@ -8,7 +8,7 @@ Steven Weaver, Ph.D.
 
 My research focuses on developing computational methods and software tools that accelerate bioinformatics research while having direct practical application in public health. With over 15 years of professional software engineering experience and over 10 years developing software in research and biomedical settings, I work at the intersection of molecular evolution, phylogenetics, and software engineering, creating accessible platforms that enable researchers worldwide to analyze genetic data.
 
-**Scientific Productivity**: Over 30 peer-reviewed publications with ~6,700 total citations, an h-index of 22, and an iCite RCR index of ~634, including 5 papers in the 99th percentile of most impactful papers among all NIH-tracked publications.
+**Scientific Productivity**: Over 30 peer-reviewed publications with ~10,600 total citations, an h-index of 23, and an iCite RCR index of ~634, including 5 papers in the 99th percentile of most impactful papers among all NIH-tracked publications.
 
 ---
 

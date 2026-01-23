@@ -23,7 +23,7 @@ I have maintained an active affiliation with UC San Diego Medical Center as a
 Bioinformatics Programmer since 2011, where I continue to contribute to HIV
 molecular epidemiology research through my work on the CDC's Secure HIV-TRACE
 platform. This ongoing connection to UCSD's research community gives me
-valuable insight into the institution's culture and the needs of its students.
+valuable insight into the institution's culture.
 
 ## Relevant Experience
 
@@ -44,8 +44,8 @@ bioinformatics education:
   concepts in relatable ways to ensure high engagement across disciplines and
   language barriers.
 
-- **Research Impact**: Over 30 peer-reviewed publications with ~6,700
-  citations, h-index of 22, and 5 papers in the 99th percentile of most impactful
+- **Research Impact**: Over 30 peer-reviewed publications with ~10,600
+  citations, h-index of 23, and 5 papers in the 99th percentile of most impactful
   papers among all NIH-tracked publications. Work published in Nature, Cell, and
   Science Translational Medicine.
 
